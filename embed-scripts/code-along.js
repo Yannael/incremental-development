@@ -208,7 +208,7 @@ async function codeAlong(config) {
 
 
   cssEditor.on("change", (e) => {
-    outputDiv.innerHTML =
+    outputShadow.innerHTML =
       '<style>' + cssEditor.getValue() + '</style>'
       + htmlEditor.getValue();
 
