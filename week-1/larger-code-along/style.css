@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.above {
+  order: 1;
+}
+
+.below {
+  order: 2;
+}

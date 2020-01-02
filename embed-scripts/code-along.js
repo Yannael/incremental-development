@@ -14,7 +14,7 @@ async function codeAlong(config) {
     ? config.code
     : await fetch(config.path)
       .then(res => res.text())
-      .catch(err => err.message);
+      .catch(err => err);
 
   if (code instanceof Error) {
     const errorEl = document.createElement('code');
@@ -23,22 +23,19 @@ async function codeAlong(config) {
     return container;
   }
 
-
   const iframe = document.createElement('iframe');
-  iframe.style = 'height:100vh;width:100%;overflow:hidden;background-color:white;';
-  iframe.setAttribute('scrolling', 'no');
+  iframe.style = 'height:90vh;width:100%;overflow:hidden;background-color:white;';
+  // iframe.setAttribute('scrolling', 'no');
 
   iframe.onload = async () => {
-
 
     // const baseEl = document.createElement('base');
     // baseEl.target = '_blank';
     // iframe.contentWindow.document.head.appendChild(baseEl);
 
-
     await new Promise((resolve, reject) => {
       const aceScript = document.createElement('script');
-      aceScript.src = "./embed-scripts/ace/ace.js";
+      aceScript.src = "../embed-scripts/ace/ace.js";
       aceScript.type = "text/javascript";
       aceScript.charset = "utf-8";
 
@@ -53,8 +50,7 @@ async function codeAlong(config) {
 
 
     const editorDiv = document.createElement('div');
-    // editorDiv.style = 'height:70vh;width:60vw;';
-    editorDiv.style = 'height:90vh;width:50vw;';
+    editorDiv.style = 'height:98vh;width:50vw;';
 
     const editor = ace.edit(editorDiv);
 
@@ -64,30 +60,38 @@ async function codeAlong(config) {
     editor.getSession().setTabSize(2);
     editor.setValue(code);
 
-    const cssEditorDiv = document.createElement('div');
-    cssEditorDiv.style = 'height:45vh;width:50vw;';
 
     const hixieButton = document.createElement('button');
-    hixieButton.innerHTML = 'study snippet in Live DOM Viewer';
+    hixieButton.innerHTML = 'study in Live DOM Viewer';
     hixieButton.onclick = () => {
       const encodedHTML = encodeURIComponent(editor.getValue());
       const url = "https://software.hixie.ch/utilities/js/live-dom-viewer/?" + encodedHTML;
       window.open(url, "_blank");
+    };
+
+    const newTabButton = document.createElement('button');
+    newTabButton.innerHTML = 'open page in new tab';
+    newTabButton.onclick = () => {
+      const x = window.open();
+      x.document.open();
+      x.document.write(editor.getValue());
+      x.document.close();
     }
-    const hixieDiv = document.createElement('div');
-    hixieDiv.style = 'margin-top:5%;text-align:center;';
-    hixieDiv.appendChild(hixieButton);
+
+    const buttonDiv = document.createElement('div');
+    buttonDiv.style = 'margin-top:2%;margin-bottom:2%;text-align:center;';
+    buttonDiv.appendChild(hixieButton);
+    buttonDiv.appendChild(newTabButton);
 
 
     const outputEl = document.createElement('iframe');
-    outputEl.style = "width:45vw;height:100vh;";
+    outputEl.style = "width:45vw;height:90vh;margin-right:20%;";
     outputEl.id = '\n-- study: rendered DOM --\n';
     outputEl.src = "data:text/html;charset=utf-8," + encodeURIComponent(code);
 
     const outputContainer = document.createElement('div');
-    outputContainer.style = 'height: 90vh; width: 50vw; border:solid 1px; padding-left:3%; padding-right:3%;';
-    outputContainer.appendChild(hixieDiv);
-    outputContainer.appendChild(document.createElement('hr'));
+    outputContainer.style = 'height: 100vh; width: 50vw; border:solid 1px; padding-left:3%; padding-right:3%;';
+    outputContainer.appendChild(buttonDiv);
     outputContainer.appendChild(outputEl);
 
 
@@ -98,9 +102,9 @@ async function codeAlong(config) {
       outputEl.src = "data:text/html;charset=utf-8," + encodeURIComponent(editor.getValue());
     });
 
-    iframe.contentWindow.document.body.style = 'display:flex; flex-direction:row;';
-    iframe.contentWindow.document.body.appendChild(editorsContainer);
-    iframe.contentWindow.document.body.appendChild(outputContainer);
+    iframe.contentDocument.body.style = 'display:flex; flex-direction:row;';
+    iframe.contentDocument.body.appendChild(editorsContainer);
+    iframe.contentDocument.body.appendChild(outputContainer);
 
   }
 

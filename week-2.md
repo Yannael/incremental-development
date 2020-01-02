@@ -11,7 +11,7 @@
 
 ### Exercises
 
-* FCC applied accessiblity
+* FCC responsive web design principles
 * HTML-CSS-Practice-Problems
     * level-2
 * css-exercises

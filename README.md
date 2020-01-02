@@ -6,26 +6,26 @@
   </a>
 </div>
 
-> "Nearly all Agile teams favor an incremental development strategy; 
-in an Agile context, this means that each successive version of the product is usable, 
-and each builds upon the previous version by adding user-visible functionality."  
+> "Nearly all Agile teams favor an incremental development strategy;
+in an Agile context, this means that each successive version of the product is usable,
+and each builds upon the previous version by adding user-visible functionality."
 > - [agile alliance](https://www.agilealliance.org/glossary/incremental-development)
 
 ### Overview
 
 * [Learning Objectives](#learning-objectives): What you can expect to learn in this module
 * Week 1:
-  * [Prep Work](./week-1.md#prep-work)
-  * [Lesson Plan](https://hackyourfuturebelgium.github.io/incremental-development/week-1.html)
-  * [Assignments](./week-1.md#assignments)
+  * [Prep Work](./week-1#prep-work)
+  * [Lesson Plan](https://hackyourfuturebelgium.github.io/incremental-development/week-1)
+  * [Assignments](./week-1#assignments)
 * Week 2:
-  * [Prep Work](./week-2.md#prep-work)
-  * [Lesson Plan](https://hackyourfuturebelgium.github.io/incremental-development/week-2.html)
-  * [Assignments](./week-2.md#assignments)
+  * [Prep Work](./week-2#prep-work)
+  * [Lesson Plan](https://hackyourfuturebelgium.github.io/incremental-development/week-2)
+  * [Assignments](./week-2#assignments)
 * Week 3:
-  * [Prep Work](./week-3.md#prep-work)
-  * [Lesson Plan](https://hackyourfuturebelgium.github.io/incremental-development/week-3.html)
-  * [Assignments](./week-3.md#assignments)
+  * [Prep Work](./week-3#prep-work)
+  * [Lesson Plan](https://hackyourfuturebelgium.github.io/incremental-development/week-3)
+  * [Assignments](./week-3#assignments)
 * [Deeper Dives](./deeper-dives.md): Fun and challenging projects and resources to go above and beyond _Incremental Development_
 * [Awesome Links](https://awesome.hackyourfuture.be): (external) Links for good learning
 
@@ -33,7 +33,7 @@ and each builds upon the previous version by adding user-visible functionality."
 
 ## Learning Objectives
 
-> todo  
+> todo
 
 > heavy on git & github & branching, heavy on inspecting and understanding DOM life-cycle. Less depth on CSS/HTML than previously
 
