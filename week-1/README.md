@@ -27,8 +27,8 @@ This week's project is to study the __Responsive Layout__ tutorial from Traversy
 Writing the same code as Mr. Traversy's code is not enough!  You will be expected to turn in your code from his tutorial on a new repository, cleanly developed with one branch per version / extra lesson and complete with a README containing a report on what you struggled with, what you learned, and what skills you now need to work.   You will be assessed not only on your live demo, but also on the quality of your code, the correctness of your branches, and the completeness of your learning notes in the README.
 
 There are two general paths you can take to get this finished repo, neither is better or worse.  And if you find another way go for it!
-1. __Two-Stepping__: First - follow the tutorial studying the code and understanding the project.  Second - go through the tutorial another time, this time around focusing on using branches to create a finished repository.
-2. __One-Stepping__: Follow the tutorial once more slowly, carefully building your finished repository as you go.
+* __Two-Stepping__: First - follow the tutorial studying the code and understanding the project.  Second - go through the tutorial another time, this time around focusing on using branches to create a finished repository.
+* __One-Stepping__: Follow the tutorial once more slowly, carefully building your finished repository as you go.
 
 But wait! Before you dive right in, take a minute to set up your homework on the module project board:
 

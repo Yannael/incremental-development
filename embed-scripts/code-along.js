@@ -55,7 +55,7 @@ async function codeAlong(config) {
     const editor = ace.edit(editorDiv);
 
     editor.setTheme('ace/theme/twilight');
-    editor.setFontSize(15);
+    editor.setFontSize(14);
     editor.getSession().setMode('ace/mode/html');
     editor.getSession().setTabSize(2);
     editor.setValue(code);
