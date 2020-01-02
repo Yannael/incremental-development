@@ -24,7 +24,9 @@ This week you have 1 project, and 3 exercise sets.
 
 This week's project is to study the __Responsive Layout__ tutorial from Traversy Media.  It's easily one of the best tutorials out there.
 
-Writing the same code as Mr. Traversy's code is not enough!  You will be expected to turn in your code from his tutorial on a new repository, cleanly developed with one branch per version / extra lesson and complete with a README containing a report on what you struggled with, what you learned, and what skills you now need to work.   You will be assessed not only on your live demo, but also on the quality of your code, the correctness of your branches, and the completeness of your learning notes in the README.
+Writing the same code as Mr. Traversy's code is not enough!  You will be expected to turn in your code from his tutorial on a new repository, cleanly developed with one branch per step.  It's up to you to decide what counts as a step.  Take a look through [this example project](https://github.com/HackYourFutureBelgium/built-with-branches) to get an idea of what an incrementally developed project looks like.  Be sure to also clone this repository and study it using GitKraken/VSC/Browser to explore what happens when you check out different branches.
+
+Your repository will also need a  README containing a report on what you struggled with, what you learned, and what skills you now need to work.   You will be assessed not only on your live demo, but also on the quality of your code, the correctness of your branches, and the completeness of your learning notes in the README.
 
 There are two general paths you can take to get this finished repo, neither is better or worse.  And if you find another way go for it!
 * __Two-Stepping__: First - follow the tutorial studying the code and understanding the project.  Second - go through the tutorial another time, this time around focusing on using branches to create a finished repository.
