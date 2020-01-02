@@ -13,7 +13,7 @@ and each builds upon the previous version by adding user-visible functionality."
 
 ### Overview
 
-* [Learning Objectives](#learning-objectives
+* [Learning Objectives](#learning-objectives)
 * [Week 1](./week-1)
 * [Week 2](./week-2)
 * [Week 3](./week-3)
