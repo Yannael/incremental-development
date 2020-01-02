@@ -5,16 +5,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-  <title>wk 1: Working With Code</title>
+  <title>wk 1: Incremental Development</title>
 
   <script src='./embed-scripts/code-along.js'></script>
 
   <link rel="stylesheet" href="./reveal.js/css/reset.css">
   <link rel="stylesheet" href="./reveal.js/css/reveal.css">
-  <link rel="stylesheet" href="./reveal.js/css/theme/simple.css">
+  <link rel="stylesheet" href="./reveal.js/css/theme/night.css">
 
   <!-- Theme used for syntax highlighting of code -->
-  <link rel="stylesheet" href="./reveal.js/lib/css/monokai.css">
+  <!-- <link rel="stylesheet" href="./reveal.js/lib/css/monokai.css"> -->
 
   <!-- Printing and PDF exports -->
   <script>
@@ -24,26 +24,47 @@
     link.href = window.location.search.match(/print-pdf/gi) ? './reveal.js/css/print/pdf.css' : './reveal.js/css/print/paper.css';
     document.getElementsByTagName('head')[0].appendChild(link);
   </script>
+
+  <style>
+    /* https://stackoverflow.com/questions/25479420/how-to-add-a-fixed-footer-on-all-slides */
+    .reveal .footer {
+      position: absolute;
+      bottom: 1em;
+      left: 1em;
+      font-size: 0.5em;
+    }
+  </style>
 </head>
 
 <body>
 
 
   <div class="reveal">
+    <div class='footer'>
+      <p><code>ESC</code> to toggle overview</p>
+    </div>
+
     <div class="slides">
 
-      <section id='starter'>
+      <section id='sper'>
         <script>
           codeAlong({
             type: 'html',
-            path: `./examples/spering.html`,
-            container: document.getElementById('starter'),
+            container: 'sper',
+            path: `./examples/spering.html`
           });
         </script>
       </section>
 
+      <section id='cover-slide'>
+        <h2>🙌 A Big HYF Welcome 🙌</h2>
+        <p>0. Working with Code</p>
+      </section>
 
-
+      <section id="thats-all">
+        <h2>🙌 A Big HYF Good Bye 🙌</h2>
+        <p>0. Working with Code</p>
+      </section>
 
 
     </div>
@@ -68,7 +89,7 @@
       dependencies: [
         // { src: 'plugin/markdown/marked.js' },
         // { src: 'plugin/markdown/markdown.js' },
-        { src: './reveal.js/plugin/notes/notes.js', async: true },
+        // { src: './reveal.js/plugin/notes/notes.js', async: true },
         // { src: './reveal.js/plugin/chalkboard/chalkboard.js' },
         // { src: 'plugin/highlight/highlight.js', async: true }
       ]
