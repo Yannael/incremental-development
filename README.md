@@ -13,7 +13,7 @@ and each builds upon the previous version by adding user-visible functionality."
 
 ### Overview
 
-* [Learning Objectives](#learning-objectives): What you can expect to learn in this module
+* [Learning Objectives](#learning-objectives)
 * Week 1:
   * [Prep Work](./week-1#prep-work)
   * [Lesson Plan](https://hackyourfuturebelgium.github.io/incremental-development/week-1)
@@ -26,8 +26,8 @@ and each builds upon the previous version by adding user-visible functionality."
   * [Prep Work](./week-3#prep-work)
   * [Lesson Plan](https://hackyourfuturebelgium.github.io/incremental-development/week-3)
   * [Assignments](./week-3#assignments)
-* [Deeper Dives](./deeper-dives.md): Fun and challenging projects and resources to go above and beyond _Incremental Development_
-* [Awesome Links](https://awesome.hackyourfuture.be): (external) Links for good learning
+* [Deeper Dives](./deeper-dives.md)
+* [Awesome Links](https://awesome.hackyourfuture.be) (external)
 
 ---
 
