@@ -1,18 +1,47 @@
 # Week 1
 
-> a nice little word or two about this week
+Prepare yourself, it's about to get real!
 
 ---
 
 ## Prep Work
 
-> read some things, watch some videos
+### Git, GitHub & GitKraken
+
+This module's main objective is to learn how Git & GitHub can be used to organize your development process.  Come prepared for Sunday's activities by studying these links:
+
+* [git & github for poets](https://www.youtube.com/watch?v=BCQHnlnPusY&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV) - watch through 1.4
+* [LearnGitBranching](https://learngitbranching.js.org/) & [video tutorial](https://www.youtube.com/watch?v=dG0ke9vILQM) - complete the first set of exercises
+* [Familiarize yourself with GitKraken](https://support.gitkraken.com/start-here/interface/)
+
+### User Stories
+
+* [Agile Development by Cartoon](https://www.youtube.com/watch?v=Z9QbYZh1YXY&list=PLBUu5aGDLKnbeEx8U-5r436bw6p9wv1rS)
+* [Splitting User Stories](https://www.youtube.com/watch?v=EDT0HMtDwYI)
+* [The "what" not the "how"](https://duckduckgo.com/?q=what+are+user+stories&t=brave&iax=videos&ia=videos&iai=Pn-QMvDTuEY)
+
+### Code Review
+
+Starting in this module, you will be using GitHub code review processes to ask for help on your projects and exercises (and to help your classmates!).  Whenever you are struggling with something instead of sharing massive blocks of code or screen-shots on Slack, you will push your work to GitHub and create an issue containing screen shots and references the lines of code you are stuck on.
+
+After sharing a link to this new issue on Slack, your peers and coaches will give feedback directly in your GitHub repository using pull requests & comments in your issue.  When you've resolved the issue, close it and give everyone a big thank you!
+
+For a while, this process will be a bit confusing and may even get in the way of solving your code problems.  But it's worth it! Mastering code review workflows _now_ will make it possible for you to focus on your code troubles _later_ when your projects are a whole lot more complicated.
+
+* [Take a look through this page from Awesome](https://awesome.hackyourfuture.be/programming/code-review)
+
+### Fun Extras
+
+Not required, but worth a look if you have the time.
+
+* [How the Internet Works in 5 Minutes](https://www.youtube.com/watch?v=7_LPdttKXPc)
+* [How do Web Browsers Work?](https://www.youtube.com/watch?v=WjDrMKZWCt0)
 
 ---
 
 ## Lesson Plan
 
-* [Live slides](https://hackyourfuture.be/incremental-development/week-1)
+* [Slide show is right here](https://hackyourfuture.be/incremental-development/week-1)
 
 ---
 
@@ -22,7 +51,7 @@ This week you have 1 project, and 3 exercise sets.
 
 ### Project
 
-This week's project is to study the __Responsive Layout__ tutorial from Traversy Media.  It's easily one of the best tutorials out there.
+This week's project is to study the __Responsive Layout__ tutorial from Traversy Media.
 
 Writing the same code as Mr. Traversy's code is not enough!  You will be expected to turn in your code from his tutorial on a new repository, cleanly developed with one branch per step.  It's up to you to decide what counts as a step.  Take a look through [this example project](https://github.com/HackYourFutureBelgium/built-with-branches) to get an idea of what an incrementally developed project looks like.  Be sure to also clone this repository and study it using GitKraken/VSC/Browser to explore what happens when you check out different branches.
 
@@ -56,6 +85,7 @@ There are 3 sets of exercises to start (and hopefully finish!).  One is on FreeC
   * Complete `exercise-1` and `exercise-2`
   * Push your work regularly, so you can ask questions with issues!
 
+[TOP](#week-1)
 
 ---
 ---

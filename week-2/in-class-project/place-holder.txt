@@ -1,0 +1,5 @@
+because you can't push an empty repo
+
+a small starter project for them to work on in small groups, 15-20 min.
+
+emphasize responsive design and accessibility

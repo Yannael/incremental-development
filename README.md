@@ -16,6 +16,8 @@ and each builds upon the previous version by adding user-visible functionality."
 * [Incremental Development](#incremental-development)
 * [Learning Objectives](#learning-objectives)
 * [About the Projects](#about-the-projects)
+* [Homework Submission](https://github.com/hackyourfuturebelgium/homework-submission) (external)
+* [Awesome Links](https://awesome.hackyourfuture.be) (external)
 * Week 1
   * [Prep Work](./week-1)
   * [Lesson Plan](https://hackyourfuture.be/incremental-development/week-1)
@@ -28,9 +30,7 @@ and each builds upon the previous version by adding user-visible functionality."
   * [Prep Work](./week-3)
   * [Lesson Plan](https://hackyourfuture.be/incremental-development/week-3)
   * [Assignments](./week-3#assignments)
-* [Homework Submission](https://github.com/hackyourfuturebelgium/homework-submission) (external)
 * [Deeper Dives](./deeper-dives.md)
-* [Awesome Links](https://awesome.hackyourfuture.be) (external)
 
 ---
 
