@@ -14,9 +14,18 @@ and each builds upon the previous version by adding user-visible functionality."
 ### Overview
 
 * [Learning Objectives](#learning-objectives)
-* [Week 1](./week-1)
-* [Week 2](./week-2)
-* [Week 3](./week-3)
+* Week 1
+  * [Prep Work](./week-1)
+  * [Lesson Plan](https://hackyourfuture.be/incremental-development/week-1)
+  * [Assignments](./week-1#assignments)
+* Week 2
+  * [Prep Work](./week-2)
+  * [Lesson Plan](https://hackyourfuture.be/incremental-development/week-2)
+  * [Assignments](./week-2#assignments)
+* Week 3
+  * [Prep Work](./week-3)
+  * [Lesson Plan](https://hackyourfuture.be/incremental-development/week-3)
+  * [Assignments](./week-3#assignments)
 * [Deeper Dives](./deeper-dives.md)
 * [Awesome Links](https://awesome.hackyourfuture.be) (external)
 
