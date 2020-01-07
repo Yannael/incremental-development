@@ -53,22 +53,200 @@
         <a href="https://github.com/hackyourfuturebelgium/incremental-development/tree/master/week-1">(back to repo)</a>
       </section>
 
+      <section id="learning-objectives">
+        <section>
+          <h2>Learning Objectives</h2>
+          <p>
+            What can you expect to cover in class today?
+          </p>
+          <br>
+          <code>(~5 min)</code>
+        </section>
+        <section>
+          <h2>The Internet</h2>
+          <br>
+          <ul>
+            <li>What is it?</li>
+            <li>How does it work?</li>
+            <li>What are web apps?</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Document Life-Cycle</h2>
+          <br>
+          <ul>
+            <li>What is source code?</li>
+            <li>What is the DOM?</li>
+            <li>What is a rendered document?</li>
+            <li>How to inspect the DOM.</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Git & GitHub</h2>
+          <br>
+          <ul>
+            <li>Practice with Pull Requests</li>
+            <li>Practice cloning, pushing & pulling</li>
+            <li>How to use Issues for Code Reviews</li>
+            <li>How to use Branches with User Stories</li>
+          </ul>
+        </section>
+      </section>
+
+      <section id="review-questions">
+        <h2>Any questions from last week?</h2>
+        <br>
+        <br>
+        <code>(~20 min)</code>
+      </section>
+
+      <section id="what-is-internet">
+        <section>
+          <h3>What is internet?</h3>
+          <iframe src="https://giphy.com/embed/VbnUQpnihPSIgIXuZv" width="384" height="480" frameBorder="0"
+            class="giphy-embed" allowFullScreen></iframe>
+          <p><a href="https://giphy.com/gifs/computer-cat-wearing-glasses-VbnUQpnihPSIgIXuZv"></a></p>
+          <code>(~10 min)</code>
+        </section>
+        <section>
+          <img
+            src="https://073bddbe7aa062defd37fde3-cwzdvdpfea.netdna-ssl.com/wp-content/uploads/2017/05/cloud-computing-logistics-2017-1000x640.jpg">
+        </section>
+        <section>
+          <h3>Yeah, great!</h3>
+          <iframe src="https://giphy.com/embed/dds5k7CtNGUpN93Abq" width="480" height="480" frameBorder="0"
+            class="giphy-embed" allowFullScreen></iframe>
+          <p><a href="https://giphy.com/gifs/lifetimetv-abs-lifetime-american-beauty-star-dds5k7CtNGUpN93Abq"></a></p>
+          <h4>But how this is working?</h4>
+        </section>
+        <section>
+          <img src="https://miro.medium.com/max/1200/0*th2x89zHuZmHGsLJ.png">
+        </section>
+        <section>
+          <img src="https://miro.medium.com/max/2560/1*AwGI1e13BoLvUd2wThmSLw.jpeg">
+        </section>
+        <section>
+          <img src="https://www.techcommuters.com/wp-content/uploads/2019/06/browsers.png">
+        </section>
+        <section>
+          <h1>DEMO TIME</h1>
+        </section>
+      </section>
+
+      <section id="document-life-cycle">
+        <section>
+          <h2>Document Life Cycle</h2>
+          <br>
+          <ol>
+            <li>Source Code (HTML & CSS)</li>
+            <li>Document Object Model</li>
+            <li>Rendered Document</li>
+          </ol>
+          <br>
+          <br>
+          <code>(~30 min)</code>
+        </section>
+
+        <section>
+          <h2>Small group study time!</h2>
+          <br>
+          <ul>
+            <li><a href="#class-vs-tag">class vs. tag</a></li>
+            <li><a href="#above-below">above / below</a></li>
+            <li><a href="#css-selectors">CSS selectors</a></li>
+            <li><a href="#tables">tables</a></li>
+            <li><a href="#inline-styles">inline styles</a></li>
+            <li><a href="#internal-styles">internal styles</a></li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Helpful Links</h2>
+          <br>
+          <ul>
+            <li><a href="https://www.lifewire.com/get-inspect-element-tool-for-browser-756549" target="_blank">How to
+                inspect an element</a>
+            </li>
+            <li><a href="https://hackyourfuture.be/inspecting-the-dom" target="_blank">Inspecting the DOM?</a></li>
+            <li><a
+                href="https://software.hixie.ch/utilities/js/live-dom-viewer/?%3C!DOCTYPE%20html%3E%0A%3Chtml%3E%0A%0A%3Chead%3E%0A%20%20%3Cmeta%20charset%3D%27utf-8%27%3E%0A%20%20%3Cstyle%3E%0A%20%20%20%20.container%20%7B%0A%20%20%20%20%20%20display%3A%20flex%3B%0A%20%20%20%20%20%20flex-direction%3A%20column%3B%0A%20%20%20%20%7D%0A%0A%20%20%20%20.above%20%7B%0A%20%20%20%20%20%20order%3A%201%3B%0A%20%20%20%20%7D%0A%0A%20%20%20%20.below%20%7B%0A%20%20%20%20%20%20order%3A%202%3B%0A%20%20%20%20%7D%0A%20%20%3C%2Fstyle%3E%0A%3C%2Fhead%3E%0A%0A%3Cbody%3E%0A%20%20%3Cdiv%20class%3D%22container%22%3E%0A%20%20%20%20%3Cp%20id%3D%22p-1%22%20class%3D%22below%22%3E%0A%20%20%20%20%20%20first%20p%0A%20%20%20%20%3C%2Fp%3E%0A%20%20%20%20%3Cp%20id%3D%22p-2%22%20class%3D%22above%22%3E%0A%20%20%20%20%20%20second%20p%0A%20%20%20%20%3C%2Fp%3E%0A%20%20%3C%2Fdiv%3E%0A%3C%2Fbody%3E%0A%0A%3C%2Fhtml%3E%0A"
+                target="_blank">Live DOM Viewer</a></li>
+            <li><a href="https://janke-learning.org/dom-tutor" target="_blank">DOM Tutor</a></li>
+            <li><a href="https://zapier.com/blog/inspect-element-tutorial/" target="_blank">Modify
+                the DOM. (does the source change?)</a>
+            </li>
+          </ul>
+        </section>
+
+        <section id='class-vs-tag'>
+          <script>
+            codeAlong({
+              type: 'document',
+              container: 'class-vs-tag',
+              path: `./examples/class-vs-tag.html`
+            });
+          </script>
+        </section>
+
+        <section id='above-below'>
+          <script>
+            codeAlong({
+              type: 'document',
+              container: 'above-below',
+              path: `./examples/above-below.html`
+            });
+          </script>
+        </section>
+
+        <section id='css-selectors'>
+          <script>
+            codeAlong({
+              type: 'document',
+              container: 'css-selectors',
+              path: `./examples/css-selectors.html`
+            });
+          </script>
+        </section>
+
+        <section id='tables'>
+          <script>
+            codeAlong({
+              type: 'document',
+              container: 'tables',
+              path: `./examples/tables.html`
+            });
+          </script>
+        </section>
+
+        <section id='inline-styles'>
+          <script>
+            codeAlong({
+              type: 'document',
+              container: 'inline-styles',
+              path: `./examples/inline-styles.html`
+            });
+          </script>
+        </section>
+
+        <section id='internal-styles'>
+          <script>
+            codeAlong({
+              type: 'document',
+              container: 'internal-styles',
+              path: `./examples/internal-styles.html`
+            });
+          </script>
+        </section>
+
+      </section>
 
       <!--
 
-        5 min. lesson learning objectives (just for class, not the whole week)
-          using issues to manage code review
-          how to work with branches
-          web-page life-cycle & inspecting the dom
-
-        20 min. review the last week's questions
-
-        40 min. dom, html & css
+        30 min. dom, html & css
           life-cycle of a page: source -> dom -> rendered
           embedded code alongs - open in new tab + inspect && open in live dom viewer
-          mini-project in groups
 
-        20 min. git/hub practice
+        30 min. git/hub practice
           pushing/pulling
           pull requestiong
           branching
@@ -80,6 +258,7 @@
           user story case study: https://awesome.hackyourfuture.be/agile-development/user-stories#basic-case-study
           study built-with-branches
           build a little project together
+            large code-along
 
         30 min. homework launch
           issues & project board set up
@@ -87,56 +266,6 @@
           log into fcc & turn on public profile
           start exercises is there's time
        -->
-
-
-      <!-- embedded code-alongs are meant for small, pointed examples -->
-
-      <section id="embedded-code-alongs">
-        <section>
-          <h3>Embedded Code-Alongs</h3>
-        </section>
-
-        <section id='class-vs-tag'>
-          <script>
-            codeAlong({
-              type: 'html',
-              container: 'class-vs-tag',
-              path: `./embedded/class-vs-tag.html`
-            });
-          </script>
-        </section>
-
-        <section id='above-below'>
-          <script>
-            codeAlong({
-              type: 'html',
-              container: 'above-below',
-              path: `./embedded/above-below.html`
-            });
-          </script>
-        </section>
-
-        <section id='css-selectors'>
-          <script>
-            codeAlong({
-              type: 'html',
-              container: 'css-selectors',
-              path: `./embedded/css-selectors.html`
-            });
-          </script>
-        </section>
-
-        <section id='tables'>
-          <script>
-            codeAlong({
-              type: 'html',
-              container: 'tables',
-              path: `./embedded/tables.html`
-            });
-          </script>
-        </section>
-      </section>
-
 
       <!-- more complete code-along exercises can be hosted as relative links
             this works especially when students clone the repo and run the slides with live-server -->

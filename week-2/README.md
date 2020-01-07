@@ -28,7 +28,7 @@ For a while, this process will be a bit confusing and may even get in the way of
 
 This module's main objective is to learn how Git & GitHub can be used to organize your development process.  Come prepared for Sunday's activities by studying these links:
 
-* [git & github for poets](https://www.youtube.com/watch?v=BCQHnlnPusY&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV) - watch through 1.4
+* [git & github for poets](https://www.youtube.com/watch?v=BCQHnlnPusY&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV)
 * [LearnGitBranching](https://learngitbranching.js.org/) & [video tutorial](https://www.youtube.com/watch?v=dG0ke9vILQM) - complete the first set of exercises
 * [Familiarize yourself with GitKraken](https://support.gitkraken.com/start-here/interface/)
 * [Study this example project](https://github.com/hackyourfuturebelgium/built-with-branches)

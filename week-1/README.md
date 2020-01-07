@@ -28,12 +28,21 @@ Not super complicated, but a little tricky at first.   And this will come up _al
 
 * [relative vs. absolute paths](https://www.youtube.com/watch?v=ephId3mYu9o)
 
-### Fun Extras
-
-Not required, but worth a look if you have the time.
+### Internet?
 
 * [How the Internet Works in 5 Minutes](https://www.youtube.com/watch?v=7_LPdttKXPc)
 * [How do Web Browsers Work?](https://www.youtube.com/watch?v=WjDrMKZWCt0)
+
+### Code Review
+
+Starting in this module, you will be using GitHub code review processes to ask for help on your projects and exercises (and to help your classmates!).  Whenever you are struggling with something instead of sharing massive blocks of code or screen-shots on Slack, you will push your work to GitHub and create an issue containing screen shots and references the lines of code you are stuck on.
+
+After sharing a link to this new issue on Slack, your peers and coaches will give feedback directly in your GitHub repository using pull requests & comments in your issue.  When you've resolved the issue, close it and give everyone a big thank you!
+
+For a while, this process will be a bit confusing and may even get in the way of solving your code problems.  But it's worth it! Mastering code review workflows _now_ will make it possible for you to focus on your code troubles _later_ when your projects are a whole lot more complicated.
+
+* [Take a look through this page from Awesome](https://awesome.hackyourfuture.be/programming/code-review)
+
 
 ---
 

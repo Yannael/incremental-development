@@ -50,7 +50,7 @@ async function codeAlong(config) {
 
 
     const editorDiv = document.createElement('div');
-    editorDiv.style = 'height:98vh;width:50vw;';
+    editorDiv.style = 'height:98vh;width:60vw;';
 
     const editor = ace.edit(editorDiv);
 
@@ -80,17 +80,17 @@ async function codeAlong(config) {
 
     const buttonDiv = document.createElement('div');
     buttonDiv.style = 'margin-top:2%;margin-bottom:2%;text-align:center;';
-    buttonDiv.appendChild(hixieButton);
     buttonDiv.appendChild(newTabButton);
+    buttonDiv.appendChild(hixieButton);
 
 
     const outputEl = document.createElement('iframe');
-    outputEl.style = "width:45vw;height:90vh;margin-right:20%;";
+    outputEl.style = "width:45vw;height:90vh;margin-right:3%;";
     outputEl.id = '\n-- study: rendered DOM --\n';
     outputEl.src = "data:text/html;charset=utf-8," + encodeURIComponent(code);
 
     const outputContainer = document.createElement('div');
-    outputContainer.style = 'height: 100vh; width: 50vw; border:solid 1px; padding-left:3%; padding-right:3%;';
+    outputContainer.style = 'height: 100vh; width: 40vw; border:solid 1px; padding-left:3%; padding-right:3%;';
     outputContainer.appendChild(buttonDiv);
     outputContainer.appendChild(outputEl);
 
