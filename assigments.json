@@ -2,15 +2,25 @@
   "projects": [
     {
       "name": "acme-web-design",
-      "live": true
+      "live": true,
+      "endpoints": [
+        "user-stories.md"
+      ]
     },
     {
-      "name": "apptheme",
-      "live": true
+      "name": "app-theme",
+      "live": true,
+      "endpoints": [
+        "user-stories.md"
+      ]
     },
     {
       "name": "duck-duck-clone",
-      "live": true
+      "live": true,
+      "endpoints": [
+        "user-stories.md",
+        "wireframe.md"
+      ]
     }
   ],
   "exercises": [
@@ -26,8 +36,8 @@
     },
     {
       "name": "HTML-CSS-Practice-Problems",
-      "live":true,
-      "endpoints":[
+      "live": true,
+      "endpoints": [
         "level-1",
         "level-2",
         "level-3"
@@ -35,8 +45,8 @@
     },
     {
       "name": "css-exercises",
-      "live":true,
-      "endpoints":[
+      "live": true,
+      "endpoints": [
         "exercise-1",
         "exercise-2",
         "exercise-3",
