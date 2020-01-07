@@ -17,7 +17,7 @@ and each builds upon the previous version by adding user-visible functionality."
 * [Learning Objectives](#learning-objectives)
 * [About the Projects](#about-the-projects)
 * [Homework Submission](https://github.com/hackyourfuturebelgium/homework-submission) (external)
-* [Awesome Links](https://awesome.hackyourfuture.be) (external)
+* [Study Links](https://study.hackyourfuture.be) (external)
 * Week 1
   * [Prep Work](./week-1)
   * [Lesson Plan](https://hackyourfuture.be/incremental-development/week-1)

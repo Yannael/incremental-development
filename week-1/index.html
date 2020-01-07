@@ -41,13 +41,14 @@
 
   <div class="reveal">
     <div class='footer'>
-      <p><code>ESC</code> to toggle overview</p>
+      <p id="footer-text">ESC to overview</p>
     </div>
 
     <div class="slides">
 
       <section id='cover-slide'>
         <h2>Incremental Development</h2>
+        <br>
         <p>Week 1</p>
         <br>
         <a href="https://github.com/hackyourfuturebelgium/incremental-development/tree/master/week-1">(back to repo)</a>
@@ -133,6 +134,46 @@
         </section>
       </section>
 
+      <section id='git-github-gitkraken'>
+        <section>
+          <h2>Git/Hub Workflow Practice</h2>
+          <br>
+          <br>
+          <p>Some step-by-step practice.</p>
+          <br>
+          <code>(~30 min)</code>
+        </section>
+        <section>
+          <h2>All together</h2>
+          <br>
+          <br>
+          <p><a
+              href="https://github.com/HackYourFutureBelgium/git-github-practice/blob/master/pull-add-new-file-push.md"
+              target="_blank">
+              Pull, add a file, commit, push
+            </a></p>
+          <br>
+        </section>
+        <section>
+          <h2>In small groups</h2>
+          <br><br>
+          <ul>
+            <li><a
+                href="https://github.com/HackYourFutureBelgium/git-github-practice/blob/master/pull-request-and-merge.md"
+                target="_blank">
+                Pull Requests & Merging
+              </a></li>
+            <li><a href="https://github.com/HackYourFutureBelgium/git-github-practice/blob/master/code-review.md"
+                target="_blank">
+                Code Review
+              </a></li>
+          </ul>
+          <br>
+          <br>
+          <p><a href="https://study.hackyourfuture.be/git-and-github" target="_blank">(helpful links)</a></p>
+        </section>
+      </section>
+
       <section id="document-life-cycle">
         <section>
           <h2>Document Life Cycle</h2>
@@ -151,12 +192,13 @@
           <h2>Small group study time!</h2>
           <br>
           <ul>
-            <li><a href="#class-vs-tag">class vs. tag</a></li>
             <li><a href="#above-below">above / below</a></li>
-            <li><a href="#css-selectors">CSS selectors</a></li>
             <li><a href="#tables">tables</a></li>
+            <li><a href="#class-vs-tag">class vs. tag</a></li>
             <li><a href="#inline-styles">inline styles</a></li>
             <li><a href="#internal-styles">internal styles</a></li>
+            <li><a href="#css-selectors">CSS selectors</a></li>
+            <li><a href="#positioning">positioning</a></li>
           </ul>
         </section>
 
@@ -175,17 +217,11 @@
             <li><a href="https://zapier.com/blog/inspect-element-tutorial/" target="_blank">Modify
                 the DOM. (does the source change?)</a>
             </li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance"
+                target="_blank">cascade & inheritance</a></li>
+            <li><a href="https://css-tricks.com/specifics-on-css-specificity/" target="_blank">CSS Specificity</a></li>
+            <li><a href="https://css-tricks.com/almanac/properties/p/position/" target="_blank">CSS Positioning</a></li>
           </ul>
-        </section>
-
-        <section id='class-vs-tag'>
-          <script>
-            codeAlong({
-              type: 'document',
-              container: 'class-vs-tag',
-              path: `./examples/class-vs-tag.html`
-            });
-          </script>
         </section>
 
         <section id='above-below'>
@@ -198,22 +234,22 @@
           </script>
         </section>
 
-        <section id='css-selectors'>
-          <script>
-            codeAlong({
-              type: 'document',
-              container: 'css-selectors',
-              path: `./examples/css-selectors.html`
-            });
-          </script>
-        </section>
-
         <section id='tables'>
           <script>
             codeAlong({
               type: 'document',
               container: 'tables',
               path: `./examples/tables.html`
+            });
+          </script>
+        </section>
+
+        <section id='class-vs-tag'>
+          <script>
+            codeAlong({
+              type: 'document',
+              container: 'class-vs-tag',
+              path: `./examples/class-vs-tag.html`
             });
           </script>
         </section>
@@ -238,51 +274,117 @@
           </script>
         </section>
 
+        <section id='css-selectors'>
+          <script>
+            codeAlong({
+              type: 'document',
+              container: 'css-selectors',
+              path: `./examples/css-selectors.html`
+            });
+          </script>
+        </section>
+
+        <section id='positioning'>
+          <script>
+            codeAlong({
+              type: 'document',
+              container: 'positioning',
+              path: `./examples/positioning.html`
+            });
+          </script>
+        </section>
+
       </section>
 
-      <!--
-
-        30 min. dom, html & css
-          life-cycle of a page: source -> dom -> rendered
-          embedded code alongs - open in new tab + inspect && open in live dom viewer
-
-        30 min. git/hub practice
-          pushing/pulling
-          pull requestiong
-          branching
-
-        - break
-
-        60 min. incremental development
-          what are user stories
-          user story case study: https://awesome.hackyourfuture.be/agile-development/user-stories#basic-case-study
-          study built-with-branches
-          build a little project together
-            large code-along
-
-        30 min. homework launch
-          issues & project board set up
-          fork/create & clone the required repos
-          log into fcc & turn on public profile
-          start exercises is there's time
-       -->
-
-      <!-- more complete code-along exercises can be hosted as relative links
-            this works especially when students clone the repo and run the slides with live-server -->
-
-      <section id="linked-code-alongs">
+      <section id="user-stories">
         <section>
-          <h3>linked code-alongs</h3>
+          <h2>User Stories</h2>
+          <br>
+          <br>
+          <code>(~15 min)</code>
         </section>
         <section>
-          <p>students would clone the repo to follow along with larger code-alongs in the repo. This works especially
-            well when they clone and follow along with live-server</p>
-          <a href='./larger-code-along' target='_blank'>larger code-along</a>
+          <h2>User Stories?</h2>
+        </section>
+        <section>
+          <h2>User Stories:</h2>
+          <br>
+          <br>
+          <a href="https://github.com/HackYourFutureBelgium/git-github-practice/blob/master/code-review.md"
+            target="_blank">
+            Case Study
+          </a>
         </section>
       </section>
+
+
+      <section id="using-git-branches">
+        <section>
+          <h2>Using Git Branches</h2>
+          <br>
+          <br>
+          <code>(~15 min)</code>
+        </section>
+        <section>
+          <h2>Git Branches?</h2>
+        </section>
+        <section>
+          <h2>Case Study:</h2>
+          <br>
+          <br>
+          <a href="https://github.com/HackYourFutureBelgium/built-with-branches" target="_blank">
+            Built With Branches
+          </a>
+        </section>
+      </section>
+
+      <section id="code-along-project">
+        <section>
+          <h2>Code-Along Project</h2>
+          <br>
+          <br>
+          <code>(~60 min)</code>
+        </section>
+        <section>
+          <h2>Objectives:</h2>
+          <br>
+          <ul>
+            <li>Develop from a mock-up</li>
+            <li>Plan steps ahead of time</li>
+            <li>Start from an empty project</li>
+            <li>Develop each step on one branch</li>
+            <li>Use semantic HTML5 elements</li>
+            <li>Deploy before class ends</li>
+          </ul>
+        </section>
+        <section>
+          <h2>HTML5 Semantic Layout</h2>
+          <br>
+          <br>
+          <p>words words words</p>
+          <!--  links
+            https://css-tricks.com/why-how-and-when-to-use-semantic-html-and-aria/
+            https://guide.freecodecamp.org/html/html5-semantic-elements/
+            https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines#Problems_solved_by_HTML5
+            https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+           -->
+        </section>
+        <section>
+          <h3><a>Starter Repository</a></h3>
+          <!--
+            empty html & css files
+            user-stories.md
+            mock-up image
+            helpful links in the readme
+          -->
+        </section>
+      </section>
+
+
 
       <section id="thats-all">
         <h2>Incremental Development</h2>
+        <br>
         <p>Week 1</p>
         <br>
         <a href="https://github.com/hackyourfuturebelgium/incremental-development/tree/master/week-1">(back to repo)</a>
@@ -302,11 +404,7 @@
       width: "100%",
       height: "100%",
       keyboard: {
-        67: function () { RevealChalkboard.toggleNotesCanvas() },	// toggle notes canvas when 'c' is pressed
-        66: function () { RevealChalkboard.toggleChalkboard() },	// toggle chalkboard when 'b' is pressed
-        46: function () { RevealChalkboard.clear() },	// clear chalkboard when 'DEL' is pressed
-        8: function () { RevealChalkboard.reset() },	// reset chalkboard data on current slide when 'BACKSPACE' is pressed
-        68: function () { RevealChalkboard.download() },	// downlad recorded chalkboard drawing when 'd' is pressed
+        // 27: function () {  }, // do something custom when ESC is pressed
       },
       dependencies: [
         // { src: 'plugin/markdown/marked.js' },
@@ -315,6 +413,13 @@
         // { src: './reveal.js/plugin/chalkboard/chalkboard.js' },
         // { src: 'plugin/highlight/highlight.js', async: true }
       ]
+    });
+
+    Reveal.addEventListener('overviewshown', function (event) {
+      document.getElementById('footer-text').innerHTML = "ESC into slide";
+    });
+    Reveal.addEventListener('overviewhidden', function (event) {
+      document.getElementById('footer-text').innerHTML = "ESC to overview";
     });
 
 

@@ -41,7 +41,7 @@ After sharing a link to this new issue on Slack, your peers and coaches will giv
 
 For a while, this process will be a bit confusing and may even get in the way of solving your code problems.  But it's worth it! Mastering code review workflows _now_ will make it possible for you to focus on your code troubles _later_ when your projects are a whole lot more complicated.
 
-* [Take a look through this page from Awesome](https://awesome.hackyourfuture.be/programming/code-review)
+* [Take a look through this page from Study](https://study.hackyourfuture.be/programming/code-review)
 
 
 ---
@@ -82,7 +82,7 @@ But wait! Before you dive right in, take a minute to set up your homework on the
     * ```YourName: week 1 - incremental development```
 1. Move it to the "In Progres" column of this module's project board.
 1. Open the [Responsive Layout](https://www.youtube.com/watch?v=Wm6CUkswsNw) tutorial.
-1. Begin studying!
+1. Begin coding!
 
 
 ### Exercises

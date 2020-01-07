@@ -1,7 +1,3 @@
-// make it only call snippet when iframe is in view?
-// either make a back button when links are followed, or have them open in new tabs
-
-
 async function codeAlong(config) {
 
   const container = config.container instanceof Element
@@ -70,7 +66,7 @@ async function codeAlong(config) {
     };
 
     const newTabButton = document.createElement('button');
-    newTabButton.innerHTML = 'open page in new tab';
+    newTabButton.innerHTML = 'inspect in new tab';
     newTabButton.onclick = () => {
       const x = window.open();
       x.document.open();

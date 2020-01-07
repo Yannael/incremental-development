@@ -22,7 +22,7 @@ After sharing a link to this new issue on Slack, your peers and coaches will giv
 
 For a while, this process will be a bit confusing and may even get in the way of solving your code problems.  But it's worth it! Mastering code review workflows _now_ will make it possible for you to focus on your code troubles _later_ when your projects are a whole lot more complicated.
 
-* [Take a look through this page from Awesome](https://awesome.hackyourfuture.be/programming/code-review)
+* [Take a look through this page from Study](https://study.hackyourfuture.be/programming/code-review)
 
 ### Git, GitHub & GitKraken
 
